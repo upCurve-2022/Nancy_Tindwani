@@ -3,7 +3,7 @@ public class question6 {
     public static void main(String args[])
     {
         Scanner scan = new Scanner( System.in );
-        System.out.print("Enter the principal value : ");
+        System.out.print("Enter the number : ");
         float doubleNumber = scan.nextFloat();
         String doubleAsString = String.valueOf(doubleNumber);
         int indexOfDecimal = doubleAsString.indexOf(".");
